@@ -48,8 +48,24 @@
   .last_right{
     border-right: none;
   }
+  .last_center{
+    border-right: none;
+    border-left: none;
+  }
   .last_left{
     border-left: none;
+  }
+  .last_right_one{
+    .last_right;
+    border-bottom: none;
+  }
+  .last_center_one{
+    .last_center;
+    border-bottom: none;
+  }
+  .last_left_one{
+    .last_left;
+    border-bottom: none;
   }
   h3{
     .font_style;
@@ -71,9 +87,12 @@
 
 }
 .footer{
-  .style;
+  background-color: @tb_color;
+  padding: 30px;
   h2{
-    font-size: 18px;
-    margin-top: 30px;
+    font-size: 16px;
+  }
+  p{
+    font-size: 12px;
   }
 }
