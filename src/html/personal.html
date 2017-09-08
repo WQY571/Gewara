@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人中心</title>
+    <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/personal.css">
+    <script src="../../bower_components/angular/angular.min.js"></script>
+    <script src="../../bower_components/angular-route/angular-route.min.js"></script>
+    <script src="../js/personal.js"></script>
+</head>
+
+<body onload='createCode()'>
+<div class="container-fluid" style="background-color: #f3f3f3">
+    <div class="row">
+        <div id="header" class="col-sm-12">
+            <a href="#" class="back"><</a>
+            <span class="denglu">登录</span>
+        </div>
+        <div id="loging" class="col-sm-6">
+            <span class="idnumber">账号登录</span>
+        </div>
+
+        <div id="iphonediv" class="col-sm-12">
+            <span><img src="../../img/personal1.png"id="personid"></span>
+            <input id="iphoneid" name="username" type="text" placeholder="手机号/注册邮箱">
+        </div>
+
+        <div id="pswdiv" class="col-sm-12">
+            <span><img src="../../img/clone.png"id="cloneid"></span>
+            <input id="pswid" name="password" type="password" placeholder="密码">
+        </div>
+
+        <div id="trydiv" class="col-sm-12">
+            <span><img src="../../img/try.png"id="tryid"></span>
+            <input id="yanzhengid" type="text" placeholder="验证码">
+            <input type="button" id="code" onclick="createCode()" title='点击更换验证码' />
+        </div>
+
+        <div id="btndiv" class="col-sm-10">
+            <button class="btn" id="sbt" onclick="validate()">登  录</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
