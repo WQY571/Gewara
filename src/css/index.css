@@ -1,0 +1,41 @@
+#nav {
+  background-color: #eb6120;
+  margin: 0;
+}
+#nav .navbar-header {
+  line-height: 50px;
+}
+#nav .navbar-header #gewara_logo {
+  width: 120px;
+  height: 35px;
+}
+#nav .navbar-header .local {
+  width: 100px;
+  text-decoration: none;
+  color: #fffafe;
+}
+#nav .navbar-header .local #site {
+  width: 30px;
+  height: 30px;
+}
+#nav .navbar-header #slidown a {
+  color: #fffafe !important;
+}
+#gewara ul {
+  height: 40px;
+}
+#gewara ul li {
+  list-style-type: none;
+  float: left;
+  width: 50% ;
+  height: 100%;
+  border-bottom: 3px solid #999999;
+}
+#gewara ul li a {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 40px;
+}

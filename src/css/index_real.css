@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#nav {
+  background-color: #eb6120;
+  margin: 0;
+}
+#nav .navbar-header {
+  line-height: 50px;
+}
+#nav .navbar-header #gewara_logo {
+  width: 120px;
+  height: 35px;
+}
+#nav .navbar-header .local {
+  width: 100px;
+  text-decoration: none;
+  color: #fffafe;
+}
+#nav .navbar-header .local #site {
+  width: 30px;
+  height: 30px;
+}
+#lead_movie {
+  line-height: 100px;
+  border-radius: 4px;
+  margin: 15px;
+  height: 100px;
+  background-color: #eb6120;
+  color: white;
+  box-shadow: 10px 10px 10px #999999;
+}
+#lead_movie span {
+  font-size: 22px;
+}
+#lead_movie strong {
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 80px;
+}
+#lead_cinema {
+  line-height: 100px;
+  border-radius: 4px;
+  margin: 15px;
+  height: 100px;
+  background-color: #eb296d;
+  color: white;
+  box-shadow: 10px 10px 10px #999999;
+}
+#lead_cinema span {
+  font-size: 22px;
+}
+#lead_cinema strong {
+  font-size: 36px;
+  margin-left: 10px;
+  margin-right: 80px;
+}
