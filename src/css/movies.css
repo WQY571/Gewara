@@ -1,0 +1,16 @@
+h2 {
+  color: #999999;
+}
+#movies_body {
+  background-color: #cdcdcd;
+}
+#movies_body:hover {
+  background-color: #999999;
+}
+#movies_body #movies_img {
+  float: left;
+  margin-right: 20px;
+}
+#movies_body .badge {
+  background-color: #eb6120;
+}

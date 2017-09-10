@@ -1,7 +1,7 @@
 var gulp=require("gulp"),
     less=require("gulp-less");
 gulp.task("translate",function () {
-    gulp.src("src/*.less")
+    gulp.src("src/css/*.less")
         .pipe(less())
-        .pipe(gulp.dest("src"))
+        .pipe(gulp.dest("src/css"))
 })
