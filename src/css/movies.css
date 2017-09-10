@@ -1,5 +1,8 @@
-h2 {
+.page-header {
   color: #999999;
+  padding-bottom: 9px;
+  margin: 0 0 10px;
+  border-bottom: 1px solid #eee;
 }
 #movies_body {
   background-color: #cdcdcd;
