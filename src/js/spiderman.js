@@ -6,4 +6,8 @@ function read() {
         merge: true,
 
     });
+
+    $("#detailsimg").click(function () {
+        window.location.href="hero-coming.html"
+    })
 }

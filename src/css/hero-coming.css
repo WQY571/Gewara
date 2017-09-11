@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#letfdiv {
+  position: absolute;
+  margin: 10px;
+}
+#namediv {
+  position: relative;
+  left: 25%;
+  top: 5px;
+}
+#nav {
+  background-color: #eb6120;
+  margin: 0;
+}
+#btnid {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+pre {
+  background-color: white;
+  border: 0px;
+}
+#good {
+  width: 98%;
+  margin: 5px;
+}
+#photodiv {
+  width: 98%;
+  margin: 5px;
+}
