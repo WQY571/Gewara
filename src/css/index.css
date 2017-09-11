@@ -21,17 +21,20 @@
 #nav .navbar-header #slidown a {
   color: #fffafe !important;
 }
-#gewara ul {
+#gewara .row {
   height: 40px;
 }
-#gewara ul li {
+#gewara .row ul {
+  height: 40px;
+}
+#gewara .row ul li {
   list-style-type: none;
   float: left;
   width: 50% ;
   height: 100%;
   border-bottom: 3px solid #999999;
 }
-#gewara ul li a {
+#gewara .row ul li a {
   text-decoration: none;
   text-align: center;
   display: block;

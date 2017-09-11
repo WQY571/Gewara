@@ -1,14 +1,16 @@
 .page-header {
   color: #999999;
-  padding-bottom: 9px;
+  padding-bottom: 0;
+  line-height: 25px;
   margin: 0 0 10px;
   border-bottom: 1px solid #eee;
 }
 #movies_body {
-  background-color: #cdcdcd;
+  background-color: #dddddd;
+  border-bottom: 1px solid #999999;
 }
 #movies_body:hover {
-  background-color: #999999;
+  background-color: #cdcdcd;
 }
 #movies_body #movies_img {
   float: left;

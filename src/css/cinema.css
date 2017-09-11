@@ -1,0 +1,39 @@
+#cinema_bar {
+  height: 40px;
+  border-bottom: 1px solid #cdcdcd;
+  line-height: 40px;
+  padding: 0;
+}
+#cinema_bar .col-xs-4 {
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+}
+#cinema_bar .col-xs-4 .logo {
+  width: 14px;
+  height: 18px;
+}
+#cinema_bar .bar_special {
+  border-right: 1px solid #cdcdcd;
+  border-left: 1px solid #cdcdcd;
+}
+.cinema_list {
+  background-color: #dddddd;
+  border-bottom: 1px solid #cdcdcd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.cinema_list:hover {
+  background-color: #cdcdcd;
+}
+.cinema_list h4 {
+  margin-top: 0;
+}
+.cinema_list h4 .grade {
+  float: right;
+  color: #eb6120;
+}
+.cinema_list .distance {
+  float: right;
+  opacity: 0.6;
+}

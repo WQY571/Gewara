@@ -3,7 +3,8 @@
  */
 var app = angular.module('gewara', [
     'ngRoute',
-    'movies.hot'
+    'movies.hot',
+    'cinema'
 ]);
 
 app.config(['$routeProvider', function ($routeProvider) {
