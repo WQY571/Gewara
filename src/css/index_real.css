@@ -29,12 +29,15 @@
   height: 100px;
   background-color: #eb6120;
   color: white;
-  box-shadow: 10px 10px 10px #999999;
+  box-shadow: 5px 5px 5px #999999;
 }
-#lead_movie span {
+#lead_movie p {
+  width: 100%;
+}
+#lead_movie p span {
   font-size: 22px;
 }
-#lead_movie strong {
+#lead_movie p strong {
   font-size: 36px;
   margin-left: 10px;
   margin-right: 80px;
@@ -46,12 +49,15 @@
   height: 100px;
   background-color: #eb296d;
   color: white;
-  box-shadow: 10px 10px 10px #999999;
+  box-shadow: 5px 5px 5px #cdcdcd;
 }
-#lead_cinema span {
+#lead_cinema p {
+  width: 100%;
+}
+#lead_cinema p span {
   font-size: 22px;
 }
-#lead_cinema strong {
+#lead_cinema p strong {
   font-size: 36px;
   margin-left: 10px;
   margin-right: 80px;
