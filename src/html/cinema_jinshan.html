@@ -9,8 +9,12 @@
     <script src="../../bower_components/angular/angular.min.js"></script>
     <script src="../../bower_components/angular-route/angular-route.min.js"></script>
     <script src="../js/cinema_jinshan.js"></script>
+    <script src="../js/owl.carousel.js"></script>
     <link rel="stylesheet" type="text/css" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../css/cinema_jinshan.css">
+    <link href="../css/owl.carousel.css" rel="stylesheet">
+    <link href="../css/owl.theme.css" rel="stylesheet">
+
 </head>
 <body>
 <div class="container-fluid" id="nav">
@@ -21,43 +25,105 @@
         </p>
         <p class="col-xs-2 text-right" id="navbuttom"><img src="../../img/Spile-Manmore2.png"></p>
     </div>
-</div>
+
 <div id="navbar-collapse">
     <ul>
         <li><img src="../../img/index.png"><a href="index_real.html">首页</a></li>
         <li><img src="../../img/personal.png"><a href="#">个人中心</a></li>
     </ul>
 </div>
-<div class="layout_content">
-    <div class="contet_header">
-        <div class="title">
-            <b>金山万达电影城</b>
+
+<div class="row">
+    <div class="col-xs-8" id="contet_header">
+        <h4>金山万达电影城
             <span>
-                <sub>9</sub>
-                <sup>.1</sup>
+            <sub>9</sub>
+            <sup>.0</sup>
             </span>
-        </div>
+        </h4>
         <p>龙皓路1088号万达广场4楼</p>
-        <span class="right">></span>
     </div>
+    <div class="col-xs-4 text-right" id="right">></div>
+</div>
+
+
     <div class="img_show">
-        <div class="">
-            <div>
-                <ul>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="title">
-                <b>蜘蛛侠：英雄归来</b>
-                <span>
-                <sub>9</sub>
-                <sup>.1</sup>
-            </span>
-            </div>
+        <div class="owl-carousel owl-theme tabs">
+            <div class="item" ><a href="#Spider-Man" data-toggle="tab"><img src="../../img/img_zhizhuxia.jpg"></a></div>
+            <div class="item" ><a href="#monster" data-toggle="tab"><img src="../../img/img_guaiwu.jpg"></a></div>
+            <div class="item" ><a href="#SilentVoice" data-toggle="tab"><img src="../../img/img_shengzhixing.jpg"></a></div>
+            <div class="item" ><a href="#Trial" data-toggle="tab"><img src="../../img/img_shiyesheng.jpg"></a></div>
+            <div class="item" ><a href="#Gintama" data-toggle="tab"><img src="../../img/img_yinghun.jpg"></a></div>
         </div>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="Spider-Man">
+                    <div class="row">
+                        <div class="col-xs-12" id="contet_cantrel">
+                            <b>蜘蛛侠：英雄归来
+                                <span>
+                                    <sub>8</sub>
+                                    <sup>.0</sup>
+                                </span>
+                            </b>
+                            <p>动作、奇幻、冒险、科幻</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="monster">
+                    <div class="row">
+                        <div class="col-xs-12 contet_cantrel">
+                            <b>怪物岛
+                                <span>
+                                    <sub>8</sub>
+                                    <sup>.2</sup>
+                                </span>
+                            </b>
+                            <p>喜剧、动画、冒险</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="SilentVoice">
+                    <div class="row">
+                        <div class="col-xs-12 contet_cantrel">
+                            <b>声之形
+                                <span>
+                                    <sub>7</sub>
+                                    <sup>.1</sup>
+                                </span>
+                            </b>
+                            <p>剧情、爱情、动画</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Trial">
+                    <div class="row">
+                        <div class="col-xs-12 contet_cantrel">
+                            <b>失业生
+                                <span>
+                                    <sub>7</sub>
+                                    <sup>.3</sup>
+                                </span>
+                            </b>
+                            <p>剧情、爱情</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="Gintama">
+                    <div class="row">
+                        <div class="col-xs-12 contet_cantrel">
+                            <b>银魂
+                                <span>
+                                    <sub>7</sub>
+                                    <sup>.4</sup>
+                                </span>
+                            </b>
+                            <p>喜剧、动作、奇幻</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
     </div>
 </div>
