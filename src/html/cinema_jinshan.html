@@ -17,22 +17,24 @@
 
 </head>
 <body>
+
 <div class="container-fluid" id="nav">
+    <!--头部导航-->
     <div class="row">
         <p class="col-xs-2"><a class="back" href="#"><</a></p>
         <p class="col-xs-8  text-center">
             <b>金山万达电影城</b>
         </p>
-        <p class="col-xs-2 text-right" id="navbuttom"><img src="../../img/Spile-Manmore2.png"></p>
+        <p class="col-xs-2 text-right"><img id="navbuttom" src="../../img/Spile-Manmore2.png"></p>
     </div>
-
+    <!--头部隐藏的首页与个人中心-->
 <div id="navbar-collapse">
     <ul>
         <li><img src="../../img/index.png"><a href="index_real.html">首页</a></li>
         <li><img src="../../img/personal.png"><a href="#">个人中心</a></li>
     </ul>
 </div>
-
+    <!--影院详情-->
 <div class="row">
     <div class="col-xs-8" id="contet_header">
         <h4>金山万达电影城
@@ -46,8 +48,9 @@
     <div class="col-xs-4 text-right" id="right">></div>
 </div>
 
-
+    <!--电影详情-->
     <div class="img_show">
+        <!--电影剧照-->
         <div class="owl-carousel owl-theme tabs">
             <div class="item" ><a href="#Spider-Man" data-toggle="tab"><img src="../../img/img_zhizhuxia.jpg"></a></div>
             <div class="item" ><a href="#monster" data-toggle="tab"><img src="../../img/img_guaiwu.jpg"></a></div>
@@ -55,10 +58,11 @@
             <div class="item" ><a href="#Trial" data-toggle="tab"><img src="../../img/img_shiyesheng.jpg"></a></div>
             <div class="item" ><a href="#Gintama" data-toggle="tab"><img src="../../img/img_yinghun.jpg"></a></div>
         </div>
-            <div id="myTabContent" class="tab-content">
+        <!--电影详情切换-->
+        <div id="myContent" class="tab-content">
                 <div class="tab-pane fade in active" id="Spider-Man">
                     <div class="row">
-                        <div class="col-xs-12" id="contet_cantrel">
+                        <div class="col-xs-12 contet_cantrel">
                             <b>蜘蛛侠：英雄归来
                                 <span>
                                     <sub>8</sub>
@@ -122,6 +126,29 @@
                     </div>
                 </div>
             </div>
+
+        <!--电影上映时间-->
+        <div class="movietime">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active"><a href="#today" data-toggle="tab">
+                    今天<span id="today1"></span></a></li>
+                <li><a href="#tomorrow" data-toggle="tab">明天<span id="tomorrow1"></span></a></li>
+                <li><a href="#aftertomorrow" data-toggle="tab">后天<span id="tomorrow2"></span></a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="today">
+                    <p>1</p>
+                </div>
+                <div class="tab-pane fade" id="tomorrow">
+                    <p>2</p>
+                </div>
+                <div class="tab-pane fade" id="aftertomorrow">
+                    <p>3</p>
+
+                </div>
+            </div>
+
+        </div>
 
 
 
