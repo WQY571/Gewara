@@ -65,7 +65,7 @@
 #middle1 {
   position: relative;
   top: 80px;
-  height: 150px;
+  height: 180px;
   border-bottom: 2px solid #dcdcdc;
 }
 #introduce {
@@ -73,16 +73,18 @@
   font-size: 14px;
   color: #5e5e5e;
   line-height: 20px;
+}
+.open {
   overflow: hidden;
 }
 #unflod {
-  height: 100px;
   font-size: 20px;
   color: #eb6120;
   position: relative;
-  top: 20px;
+  top: 40px;
   left: 40%;
-  text-decoration: none;
+  background-color: white;
+  border: hidden;
 }
 /*********剧照*****/
 #middle2 {
