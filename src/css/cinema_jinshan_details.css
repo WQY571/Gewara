@@ -49,6 +49,9 @@ body {
   width: 25px;
   height: 25px;
 }
+#contet_header {
+  height: 125px;
+}
 #contet_header b {
   color: black;
   font-size: 18px;
@@ -68,4 +71,14 @@ body {
 }
 #contet_header .call span {
   color: #337ab7;
+}
+.content {
+  margin: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+.content h4 {
+  padding-left: 10px;
+  border-left: 5px solid #eb6120;
+  margin-bottom: 0;
 }
