@@ -1,5 +1,6 @@
 @bgcolor:#f3f3f3;
 @nav_bgcolor:#eb6120;
+@color: #ddd;
 
 *{
   margin: 0;
@@ -72,12 +73,12 @@ body{
 
   }
   #right {
-      color: #cdcdcd;
+      color: @color;
       font-size: 43px;
     }
 
   .img_show{
-    border-top: 1px dotted #c6c6c6;
+    border-top: 1px dotted @color;
     padding-top: 15px;
     .owl-item:active img{
       border: solid 1px @nav_bgcolor;
@@ -98,13 +99,13 @@ body{
       p{
         position: relative;
         top:-20px;
-        color: #c6c6c6;
+        color: @color;
         margin: 0;
       }
     }
   }
 .movietime{
-  border-top: 1px solid #ddd;
+  border-top: 1px solid @color;
   li{
     a{
     color:black;
@@ -124,19 +125,27 @@ body{
     .row{
       height: 100px;
       overflow: hidden;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid @color;
       .col-xs-4{
         b{
           color: black;
         }
-        .dorr{
-          color: @nav_bgcolor;
-        }
         .leave{
-          background-color: #ddd;
+          background-color: @color;
           border-radius: 30px;
           height: 30px;
           line-height: 30px;
+        }
+        h6{
+          margin-top: 5px;
+          margin-bottom: 0px;
+        }
+        img{
+          position: relative;
+          top: -12px;
+        }
+        .dorr{
+          color: @nav_bgcolor;
         }
 
 

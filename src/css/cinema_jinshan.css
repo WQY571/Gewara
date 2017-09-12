@@ -63,11 +63,11 @@ body {
   margin: 0;
 }
 #right {
-  color: #cdcdcd;
+  color: #ddd;
   font-size: 43px;
 }
 .img_show {
-  border-top: 1px dotted #c6c6c6;
+  border-top: 1px dotted #ddd;
   padding-top: 15px;
 }
 .img_show .owl-item:active img {
@@ -87,7 +87,7 @@ body {
 .img_show .contet_cantrel p {
   position: relative;
   top: -20px;
-  color: #c6c6c6;
+  color: #ddd;
   margin: 0;
 }
 .movietime {
@@ -107,12 +107,20 @@ body {
 #myTabContent .row .col-xs-4 b {
   color: black;
 }
-#myTabContent .row .col-xs-4 .dorr {
-  color: #eb6120;
-}
 #myTabContent .row .col-xs-4 .leave {
   background-color: #ddd;
   border-radius: 30px;
   height: 30px;
   line-height: 30px;
+}
+#myTabContent .row .col-xs-4 h6 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+#myTabContent .row .col-xs-4 img {
+  position: relative;
+  top: -12px;
+}
+#myTabContent .row .col-xs-4 .dorr {
+  color: #eb6120;
 }
