@@ -4,12 +4,14 @@
   line-height: 40px;
   padding: 0;
 }
-#cinema_bar .col-xs-4 {
+#cinema_bar .drop_nav {
+  float: left;
+  width: 33%;
   height: 30px;
   text-align: center;
   line-height: 30px;
 }
-#cinema_bar .col-xs-4 .logo {
+#cinema_bar .drop_nav .logo {
   width: 14px;
   height: 18px;
 }

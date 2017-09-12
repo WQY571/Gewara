@@ -1,18 +1,20 @@
-<div class="row">
-    <div class="col-md-12" id="cinema_bar">
-            <div class="col-xs-4 " id="bar_site" ng-click="myway()">
+
+    <div id="cinema_bar">
+            <div class="drop_nav" id="bar_site">
                 <img src="../../img/aera.png" class="logo"><span>区域</span>
                 <img src="../../img/cinema_bar.png" id="open_logo">
             </div>
-            <div class="col-xs-4 bar_special">
+            <div class="drop_nav bar_special">
                 <img src="../../img/special.png" class="logo">特色
                 <img src="../../img/cinema_bar.png" id="open_logo_1">
             </div>
-            <div class="col-xs-4 bar_search">
+            <div class="drop_nav bar_search">
                 <img src="../../img/seek.png" class="logo">搜索影院
             </div>
     </div>
-</div>
+
+
+
 
 <div class="col-md-12 cinema_list">
     <h4>广州南沙万达电影城 <span class="grade">7.8</span></h4>
@@ -63,9 +65,17 @@
     <b>放映3部余12场</b>
     <img src="../../img/imax3D.png">
 </div>
+
+<ul class="">
+    <li class="active"><a href="#">区域</a></li>
+    <li><a href="#">地铁</a></li>
+    <li><a href="#">商圈</a></li>
+</ul>
+
+
 <script>
 $(function () {
-    $(".col-xs-4").click(function () {
+    $(".drop_nav").click(function () {
         $(this).css({"color":"#eb6120"}).siblings('div').css({"color":"#000"});
     })
 })
