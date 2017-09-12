@@ -70,6 +70,9 @@ body {
   border-top: 1px dotted #c6c6c6;
   padding-top: 15px;
 }
+.img_show .owl-item:active img {
+  border: solid 1px #eb6120;
+}
 .img_show .contet_cantrel b {
   font-size: 16px;
   margin-top: 0;
@@ -90,7 +93,20 @@ body {
 .movietime {
   border-top: 1px solid #ddd;
 }
-.movietime ul li a {
+.movietime li a {
+  color: black;
   display: inline-block;
   padding: 10px 13px;
+  border-radius: 22px;
+}
+#myTabContent .row {
+  height: 100px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+#myTabContent .row .col-xs-4 b {
+  color: black;
+}
+#myTabContent .row .col-xs-4 .dorr {
+  color: #eb6120;
 }

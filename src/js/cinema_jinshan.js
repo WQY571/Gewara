@@ -12,7 +12,7 @@ $(document).ready(function(){
     //图片滑动手势
     $('.owl-carousel').owlCarousel({
         items: 4 ,
-        loop: true,
+        loop: false,
         margin: 1,
         merge: true,
         responsive: {
@@ -24,13 +24,7 @@ $(document).ready(function(){
             }
         }
     });
-
-
-    // $(".item a img").click(function () {
-    //     $(this).css({'border':'1px solid #eb6120'}).siblings("img").css({'border':'none'})
-    // });
-
-
+//获取日期
         var TodayDate=new Date();
         var months=TodayDate.getMonth()+1;
         var days=TodayDate.getDate();
@@ -39,29 +33,27 @@ $(document).ready(function(){
 
         $("#today1").text(
     function (e) {
-        var a = months+"月"+days+"日";
-        return a;
+        return a = months+"月"+days+"日";
+
     }
 
     );
     $("#tomorrow1").text(
         function (e) {
-            var b = months+"月"+days2+"日";
-            return b;
+            return b = months+"月"+days2+"日";
+
         }
 
     );
     $("#tomorrow2").text(
         function (e) {
-            var d = months+"月"+days3+"日";
-            return d;
+            return d = months+"月"+days3+"日";
+
         }
 
     )
 
-    $("#myTab li a").click(function () {
-        $(this).css({'background-color':'#eb6120','color':'white'}).siblings("li").css({'background-color':'#999999'})
-    });
+
 
 
 
