@@ -80,15 +80,10 @@ body{
   .img_show{
     border-top: 1px dotted #c6c6c6;
     padding-top: 15px;
-    ul{
-      li{
-        a{
-          img{
-
-          }
-        }
-      }
+    .owl-item:active img{
+      border: solid 1px @nav_bgcolor;
     }
+
     .contet_cantrel{
      b {
         font-size: 16px;
@@ -111,16 +106,37 @@ body{
   }
 .movietime{
   border-top: 1px solid #ddd;
-  ul{
-    li{
-      a{
-        display: inline-block;
-        padding: 10px 13px;
+  li{
+    a{
+    color:black;
+    display: inline-block;
+    padding: 10px 13px;
+    border-radius: 22px;
+
+    }
+
+    }
+
+      }
+
+
+
+  #myTabContent{
+    .row{
+      height: 100px;
+      overflow: hidden;
+      border-bottom: 1px solid #ddd;
+      .col-xs-4{
+        b{
+          color: black;
+        }
+        .dorr{
+          color: @nav_bgcolor;
+        }
 
 
       }
     }
-
   }
-}
+
 
