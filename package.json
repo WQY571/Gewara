@@ -1,14 +1,23 @@
 {
   "name": "gewara",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "\"\"",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WQY571/Gewara.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WQY571/Gewara/issues"
+  },
+  "homepage": "https://github.com/WQY571/Gewara#readme",
   "devDependencies": {
+    "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-less": "^3.3.2"
   }

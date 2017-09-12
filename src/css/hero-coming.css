@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#letfdiv {
+  position: absolute;
+  margin: 10px;
+}
+#namediv {
+  position: relative;
+  left: 25%;
+  top: 5px;
+}
+#nav {
+  background-color: #eb6120;
+  margin: 0;
+}
+#btnid {
+  position: absolute;
+  right: 10px;
+  bottom: 15px;
+}
+#navbar-collapse {
+  display: none;
+  background-color: #eb6120;
+  width: 116px;
+  height: 92px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  line-height: 46px;
+  padding-left: 20px;
+  z-index: 999;
+}
+#navbar-collapse ul {
+  display: inline-block;
+  list-style: none;
+}
+#navbar-collapse ul li {
+  text-decoration: none;
+}
+#navbar-collapse ul li a {
+  color: white;
+}
+#navbar-collapse ul li img {
+  width: 25px;
+  height: 25px;
+}
+pre {
+  background-color: white;
+  border: 0px;
+}
+#good {
+  width: 98%;
+  margin: 5px;
+}
+#photodiv {
+  width: 98%;
+  margin: 5px;
+}

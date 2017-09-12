@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #f3f3f3;
+}
 #nav {
   background-color: #eb6120;
   height: 50px;
@@ -16,7 +19,7 @@
   color: white;
   font-size: 16px;
 }
-#nav img {
+#nav #navbuttom {
   width: 30px;
   height: 30px;
 }
@@ -27,8 +30,10 @@
   height: 92px;
   position: absolute;
   right: 0;
+  top: 50px;
   line-height: 46px;
   padding-left: 20px;
+  z-index: 999;
 }
 #navbar-collapse ul {
   display: inline-block;
@@ -44,33 +49,64 @@
   width: 25px;
   height: 25px;
 }
-.layout_content {
-  background-color: #f3f3f3;
-  width: 100%;
-  height: 1990px;
-}
-.layout_content .contet_header {
-  width: 100%;
-  position: absolute;
-  margin: 15px;
-  padding-left: 10px;
-}
-.layout_content .contet_header .title {
-  position: relative;
-}
-.layout_content .contet_header .title b {
+#contet_header h4 {
   font-size: 16px;
-  text-indent: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.layout_content .contet_header .title span {
+#contet_header h4 span {
   margin-left: 10px;
   color: #eb6120;
   font-size: 20px;
 }
-.layout_content .contet_header .right {
+#contet_header p {
+  margin: 0;
+}
+#right {
   color: #cdcdcd;
-  position: absolute;
-  right: 30px;
-  top: -5px;
   font-size: 43px;
+}
+.img_show {
+  border-top: 1px dotted #c6c6c6;
+  padding-top: 15px;
+}
+.img_show .owl-item:active img {
+  border: solid 1px #eb6120;
+}
+.img_show .contet_cantrel b {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #5f5f5f !important;
+}
+.img_show .contet_cantrel b span {
+  margin-left: 10px;
+  color: #eb6120;
+  font-size: 20px;
+}
+.img_show .contet_cantrel p {
+  position: relative;
+  top: -20px;
+  color: #c6c6c6;
+  margin: 0;
+}
+.movietime {
+  border-top: 1px solid #ddd;
+}
+.movietime li a {
+  color: black;
+  display: inline-block;
+  padding: 10px 13px;
+  border-radius: 22px;
+}
+#myTabContent .row {
+  height: 100px;
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+#myTabContent .row .col-xs-4 b {
+  color: black;
+}
+#myTabContent .row .col-xs-4 .dorr {
+  color: #eb6120;
 }

@@ -5,8 +5,8 @@
         <span class="badge">{{item.rating.average}}</span>
         <div class="media">
             <div class="meida-left" id="movies_img">
-                <img ng-src="{{item.images.small}}" class="media-object">
-            </div>
+            <img ng-src="{{item.images.small}}" class="media-object">
+        </div>
             <div class="media-body">
                 <h4 class="media-heading"><b>{{item.title}}</b></h4>
                 <p>导演：<span ng-repeat="director in item.directors">{{director.name}}{{$last?'':'、'}}</span></p>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
     <title>Title</title>
     <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -10,8 +11,8 @@
     <link rel="stylesheet" href="../css/index.css">
     <script src="../../bower_components/angular/angular.min.js"></script>
     <script src="../../bower_components/angular-route/angular-route.min.js"></script>
+    <!--<script src="../js/index.js"></script>-->
     <script src="../js/app.js"></script>
-
 
 
 </head>
@@ -147,16 +148,14 @@
         $("#gewara ul li").click(function () {
             $(this).css({'border-bottom':'3px solid #eb6120'}).siblings("li").css({'border-bottom':'3px solid #999999'})
         });
-        $("#gewara ul li:first-child").trigger("click");
     });
 </script>
     <!--movies页面引入的文件-->
 
     <script src="../js/movies.js"></script>
-    <script src="../js/cinema.js"></script>
     <link rel="stylesheet" href="../css/movies.css">
 
     <link rel="stylesheet" href="../css/cinema.css">
-</body>
 
+</body>
 </html>
