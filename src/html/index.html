@@ -25,17 +25,26 @@
                 <a href="#"><img src="../../img/logo.png" id="gewara_logo"></a>
                 <a href="#" class="local">广州<img src="../../img/select.png" id="site"></a>
             </div>
-            <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav" id="slidown">
-                    <li><a href="index_real.html">首页</a></li>
-                    <li><a href="#">个人中心</a></li>
-                </ul>
-            </div>
+            <!--<div class="collapse navbar-collapse" id="example-navbar-collapse">-->
+                <!--<ul class="nav navbar-nav" id="slidown" style="position:relative;z-index: 6;">-->
+                    <!--<li><a href="index_real.html">首页</a></li>-->
+                    <!--<li><a href="#">个人中心</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <a id="dropbtn" onclick="navshow()">
+                <span><img src="../../img/Spile-Manmore2.png"></span>
+            </a>
         </div>
     </nav>
+    <div id="dropdown">
+        <ul>
+            <li><a href="index_real.html">首页</a></li>
+            <li><a>个人中心</a></li>
+        </ul>
+    </div>
     <div ng-app="gewara" id="gewara">
             <ul>
-                <li class="active"><a href="#/movies">电影</a></li>
+                <li class="active" id="movies"><a href="#/movies">电影</a></li>
                 <li><a href="#/cinema">影院</a></li>
             </ul>
         <div ng-view></div>
@@ -43,20 +52,21 @@
 
 
 
-        <ul class="nav  nav-stacked" id="first_nav">
-            <li><a data-toggle="tab" href="#menu1">区域</a></li>
-            <li><a data-toggle="tab" href="#menu2">特色</a></li>
-            <li><a data-toggle="tab" href="#">搜索影院</a></li>
-        </ul>
-        <div class="tab-content">
-            <div id="menu1" class="tab-pane fade">
+        <!--<ul class="nav  nav-stacked" id="first_nav">-->
+            <!--<li><a data-toggle="tab" href="#menu1">区域</a></li>-->
+            <!--<li><a data-toggle="tab" href="#menu2">特色</a></li>-->
+            <!--<li><a data-toggle="tab" href="#">搜索影院</a></li>-->
+        <!--</ul>-->
+        <!--<div class="tab-content">-->
+            <!--<div id="menu1" class="tab-pane fade">-->
+            <div id="site_nav">
                 <ul class="nav  nav-stacked" style="float: left;width: 30%;">
-                    <li class=""><a data-toggle="tab" href="#menu01">区域</a></li>
+                    <li class="active"><a data-toggle="tab" href="#menu01">区域</a></li>
                     <li><a data-toggle="tab" href="#menu02">地铁</a></li>
                     <li><a data-toggle="tab" href="#menu03">商用</a></li>
                 </ul>
                 <div class="tab-content">
-                    <div id="menu01" class="tab-pane fade view" style="overflow: scroll;">
+                    <div id="menu01" class="tab-pane fade view" >
                         <ul>
                             <li><a href="">全部</a></li>
                             <li><a href="">荔湾区</a></li>
@@ -101,7 +111,11 @@
                     </div>
                 </div>
             </div>
-            <div id="menu2" class="tab-pane fade">
+            <!--</div>-->
+
+
+            <!--<div id="menu2" class="tab-pane fade">-->
+            <div id="special_nav">
                 <ul class="nav  nav-stacked" style="float: left;width: 30%;">
                     <li><a data-toggle="tab" href="#menu001">特效厅</a></li>
                     <li><a data-toggle="tab" href="#menu002">服务</a></li>
@@ -137,24 +151,47 @@
             <!--<div id="menu3" class="tab-pane fade">-->
                 <!--<h3>一级导航3</h3>-->
             <!--</div>-->
-        </div>
+        <!--</div>-->
 
 
 
 
 <script>
     $(function () {
-        $("#gewara ul li:first-child").css({'border-bottom':'3px solid #eb6120'});
+        $("#gewara ul li:first-child").css({'border-bottom':'3px solid #eb6120'},{"color":"#eb6120"});
         $("#gewara ul li").click(function () {
             $(this).css({'border-bottom':'3px solid #eb6120'}).siblings("li").css({'border-bottom':'3px solid #999999'})
         });
+        $(".nav li").click(function () {
+            $(this).css('border-left','5px solid #eb6120').siblings('li').css('border','0')
+        });
+        $("#movies").click(function(e) {
+            if (e) {
+                $("#site_nav").css('display', 'none');
+                $("#special_nav").css('display', 'none');
+            }
+        })
+//        $("#dropbtn img").click(function () {
+//            $("#dropdown").css('display','block');
+//        })
+
     });
 </script>
+    <script>
+        function navshow(){
+            var a=document.getElementById('dropdown');
+            if( a.style.display==""|| a.style.display=="none"){
+                a.style.display = "block";
+            }else{
+                a.style.display = "none";
+            }
+        }
+    </script>
     <!--movies页面引入的文件-->
 
     <script src="../js/movies.js"></script>
     <link rel="stylesheet" href="../css/movies.css">
-<script src="../js/cinema.js"></script>
+    <script src="../js/cinema.js"></script>
     <link rel="stylesheet" href="../css/cinema.css">
 
 </body>

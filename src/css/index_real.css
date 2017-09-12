@@ -6,6 +6,14 @@
   background-color: #eb6120;
   margin: 0;
 }
+#nav #dropbtn img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
 #nav .navbar-header {
   line-height: 50px;
 }
@@ -21,6 +29,36 @@
 #nav .navbar-header .local #site {
   width: 30px;
   height: 30px;
+}
+#dropdown {
+  height: 60px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  margin-right: 0;
+  width: 30%;
+  background-color: #eb6120;
+}
+#dropdown ul {
+  padding: 0;
+  height: 60px;
+}
+#dropdown ul li {
+  list-style-type: none;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  text-align: center;
+}
+#dropdown ul li:hover {
+  background-color: #cdcdcd;
+}
+#dropdown ul li a {
+  height: 100%;
+  line-height: 30px;
+  color: #fffafe;
+  text-decoration: none;
 }
 #lead_movie {
   line-height: 100px;
