@@ -18,5 +18,5 @@ app.config(['$routeProvider', function ($routeProvider) {
             templateUrl: '../html/cinema.html'
         })
 
-        .otherwise({redirectTo: '/movies'});
+        // .otherwise({redirectTo: '/movies'});
 }]);

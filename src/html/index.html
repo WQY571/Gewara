@@ -20,13 +20,7 @@
     <nav class="navbar navbar-default" role="navigation" id="nav">
         <div class="container-fluid">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#example-navbar-collapse">
-                    <span class="sr-only">切换导航</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+
                 <a href="#"><img src="../../img/logo.png" id="gewara_logo"></a>
                 <a href="#" class="local">广州<img src="../../img/select.png" id="site"></a>
             </div>
@@ -39,14 +33,112 @@
         </div>
     </nav>
     <div ng-app="gewara" id="gewara">
-        <div class="row">
-            <ul class="col-md-12">
+            <ul>
                 <li class="active"><a href="#/movies">电影</a></li>
                 <li><a href="#/cinema">影院</a></li>
             </ul>
-        </div>
         <div ng-view></div>
     </div>
+
+
+
+        <ul class="nav  nav-stacked" id="first_nav">
+            <li><a data-toggle="tab" href="#menu1">区域</a></li>
+            <li><a data-toggle="tab" href="#menu2">特色</a></li>
+            <li><a data-toggle="tab" href="#">搜索影院</a></li>
+        </ul>
+        <div class="tab-content">
+            <div id="menu1" class="tab-pane fade">
+                <ul class="nav  nav-stacked" style="float: left;width: 30%;">
+                    <li class=""><a data-toggle="tab" href="#menu01">区域</a></li>
+                    <li><a data-toggle="tab" href="#menu02">地铁</a></li>
+                    <li><a data-toggle="tab" href="#menu03">商用</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="menu01" class="tab-pane fade view" style="overflow: scroll;">
+                        <ul>
+                            <li><a href="">全部</a></li>
+                            <li><a href="">荔湾区</a></li>
+                            <li><a href="">越秀区</a></li>
+                            <li><a href="">海珠区</a></li>
+                            <li><a href="">天河区</a></li>
+                            <li><a href="">白云区</a></li>
+                            <li><a href="">黄浦区</a></li>
+                            <li><a href="">番禺区</a></li>
+                            <li><a href="">花都区</a></li>
+                            <li><a href="">南沙区</a></li>
+                        </ul>
+                    </div>
+                    <div id="menu02" class="tab-pane fade view">
+                        <ul>
+                            <li><a href="">全部</a></li>
+                            <li><a href="">1号线</a></li>
+                            <li><a href="">2号线</a></li>
+                            <li><a href="">3号线</a></li>
+                            <li><a href="">4号线</a></li>
+                            <li><a href="">5号线</a></li>
+                            <li><a href="">6号线</a></li>
+                            <li><a href="">7号线</a></li>
+                            <li><a href="">8号线</a></li>
+                            <li><a href="">APM线</a></li>
+                            <li><a href="">广佛线</a></li>
+                        </ul>
+                    </div>
+                    <div id="menu03" class="tab-pane fade view">
+                        <ul>
+                            <li><a href="">全部</a></li>
+                            <li><a href="">西关</a></li>
+                            <li><a href="">东山</a></li>
+                            <li><a href="">北京路</a></li>
+                            <li><a href="">小北</a></li>
+                            <li><a href="">江南西</a></li>
+                            <li><a href="">天河</a></li>
+                            <li><a href="">岗顶数码</a></li>
+                            <li><a href="">珠江新城</a></li>
+                            <li><a href="">番禺大北路</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="menu2" class="tab-pane fade">
+                <ul class="nav  nav-stacked" style="float: left;width: 30%;">
+                    <li><a data-toggle="tab" href="#menu001">特效厅</a></li>
+                    <li><a data-toggle="tab" href="#menu002">服务</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="menu001" class="tab-pane fade view">
+                        <ul>
+                            <li><a href="">全部</a></li>
+                            <li><a href="">情侣厅</a></li>
+                            <li><a href="">4D厅</a></li>
+                            <li><a href="">VIP厅</a></li>
+                            <li><a href="">4K厅</a></li>
+                            <li><a href="">巨幕厅</a></li>
+                            <li><a href="">IMAX厅</a></li>
+                            <li><a href="">杜比全景声厅</a></li>
+                            <li><a href="">中国巨幕</a></li>
+                            <li><a href="">MX4D厅</a></li>
+                            <li><a href="">RealD 6FL厅</a></li>
+                        </ul>
+                    </div>
+                    <div id="menu002" class="tab-pane fade view">
+                        <ul>
+                            <li><a href="">全部</a></li>
+                            <li><a href="">免费停车</a></li>
+                            <li><a href="">情侣座</a></li>
+                            <li><a href="">退票</a></li>
+                            <li><a href="">自定票</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!--<div id="menu3" class="tab-pane fade">-->
+                <!--<h3>一级导航3</h3>-->
+            <!--</div>-->
+        </div>
+
+
 
 
 <script>
@@ -63,6 +155,7 @@
     <script src="../js/movies.js"></script>
     <script src="../js/cinema.js"></script>
     <link rel="stylesheet" href="../css/movies.css">
+
     <link rel="stylesheet" href="../css/cinema.css">
 </body>
 

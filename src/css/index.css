@@ -21,24 +21,38 @@
 #nav .navbar-header #slidown a {
   color: #fffafe !important;
 }
-#gewara .row {
+#gewara ul {
+  padding: 0;
   height: 40px;
 }
-#gewara .row ul {
-  height: 40px;
-}
-#gewara .row ul li {
+#gewara ul li {
   list-style-type: none;
   float: left;
   width: 50% ;
   height: 100%;
   border-bottom: 3px solid #999999;
 }
-#gewara .row ul li a {
+#gewara ul li a {
   text-decoration: none;
   text-align: center;
   display: block;
   width: 100%;
   height: 100%;
   line-height: 40px;
+}
+#first_nav li {
+  float: left;
+}
+.view {
+  width: 70%;
+  height: 150px;
+  overflow: scroll;
+}
+.view ul {
+  padding: 0;
+}
+.view ul li {
+  height: 40px;
+  list-style-type: none;
+  border: 1px solid #999999;
 }
