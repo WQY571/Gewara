@@ -1,10 +1,10 @@
 
     <div id="cinema_bar">
-            <div class="drop_nav" id="bar_site">
-                <img src="../../img/aera.png" class="logo"><span>区域</span>
+            <div class="drop_nav" id="bar_site" onclick="toggle1()">
+                <img src="../../img/aera.png" class="logo">区域
                 <img src="../../img/cinema_bar.png" id="open_logo">
             </div>
-            <div class="drop_nav bar_special">
+            <div class="drop_nav bar_special" onclick="toggle()">
                 <img src="../../img/special.png" class="logo">特色
                 <img src="../../img/cinema_bar.png" id="open_logo_1">
             </div>
@@ -12,8 +12,35 @@
                 <img src="../../img/seek.png" class="logo">搜索影院
             </div>
     </div>
+<script>
+    var b=document.getElementById('special_nav');
+    var a=document.getElementById('site_nav');
+    function toggle1(){
+        if( a.style.display==""|| a.style.display=="none"){
+            a.style.display = "block";
+            b.style.display = "none";
+            a.style.color="red";
+            b.style.color="black";
+        }else{
+            a.style.display = "none";
+            a.style.color="black";
+        }
 
+    }
+    function toggle() {
 
+        if( b.style.display==""|| b.style.display=="none"){
+            b.style.display = "block";
+            a.style.display = "none";
+            b.style.color="red";
+            a.style.color="black";
+        }else{
+            b.style.display = "none";
+            b.style.color="black";
+        }
+    }
+
+</script>
 
 
 <div class="col-md-12 cinema_list">

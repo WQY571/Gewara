@@ -17,3 +17,5 @@ gulp.task('serve',['translate'], function() {
     gulp.watch("src/css/*.css");
     gulp.watch("src/html/*.html").on('change', reload);
 });
+
+

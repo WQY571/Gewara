@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
-    <title>Title</title>
+    <title>首页</title>
     <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.css">
@@ -17,25 +17,20 @@
     <nav class="navbar navbar-default" role="navigation" id="nav">
         <div >
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse"
-                        data-target="#example-navbar-collapse">
-                    <span class="sr-only">切换导航</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
                 <a href="#"><img src="../../img/logo.png" id="gewara_logo"></a>
                 <a href="#" class="local">广州<img src="../../img/select.png" id="site"></a>
             </div>
-            <div class="collapse navbar-collapse" id="example-navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#">首页</a></li>
-                    <li><a href="#">个人中心</a></li>
-                </ul>
-            </div>
+            <a id="dropbtn" onclick="navshow()">
+                <span><img src="../../img/Spile-Manmore2.png"></span>
+            </a>
         </div>
     </nav>
-
+    <div id="dropdown">
+        <ul>
+            <li><a href="index_real.html">首页</a></li>
+            <li><a>个人中心</a></li>
+        </ul>
+    </div>
 
     <div id="lead_movie" >
         <p><strong>电影</strong><span>6500</span><b>家电影院在线选座</b><span>&nbsp;&gt;</span></p>
@@ -43,5 +38,17 @@
     <div id="lead_cinema">
         <p><strong>演出</strong><span>260</span><b>台演出正在售票</b><span>&nbsp;&gt;</span></p>
     </div>
+
+
+    <script>
+        function navshow(){
+            var a=document.getElementById('dropdown');
+            if( a.style.display==""|| a.style.display=="none"){
+                a.style.display = "block";
+            }else{
+                a.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>

@@ -6,6 +6,16 @@
 
   background-color: #eb6120;
   margin: 0;
+  #dropbtn{
+    img{
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      position: absolute;
+      right: 5%;
+      top: 20%;
+    }
+  }
   .navbar-header{
     line-height: 50px;
     #gewara_logo{
@@ -19,6 +29,36 @@
       #site{
         width: 30px;
         height: 30px;
+      }
+    }
+  }
+}
+#dropdown{
+  height: 60px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  margin-right: 0;
+  width: 30%;
+  background-color: #eb6120;
+  ul{
+    padding: 0;
+    height: 60px;
+    li{
+      list-style-type: none;
+      width: 100%;
+      height: 50%;
+      margin: 0;
+      text-align: center;
+      &:hover{
+        background-color: #cdcdcd;
+      }
+      a{
+        height:100%;
+        line-height: 30px;
+        color:#fffafe;
+        text-decoration: none;
       }
     }
   }
@@ -63,5 +103,4 @@
       margin-right: 80px;
     }
   }
-
 }

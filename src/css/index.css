@@ -2,6 +2,14 @@
   background-color: #eb6120;
   margin: 0;
 }
+#nav #dropbtn img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  top: 20%;
+}
 #nav .navbar-header {
   line-height: 50px;
 }
@@ -20,6 +28,36 @@
 }
 #nav .navbar-header #slidown a {
   color: #fffafe !important;
+}
+#dropdown {
+  height: 60px;
+  display: none;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  margin-right: 0;
+  width: 30%;
+  background-color: #eb6120;
+}
+#dropdown ul {
+  padding: 0;
+  height: 60px;
+}
+#dropdown ul li {
+  list-style-type: none;
+  width: 100%;
+  height: 50%;
+  margin: 0;
+  text-align: center;
+}
+#dropdown ul li:hover {
+  background-color: #cdcdcd;
+}
+#dropdown ul li a {
+  height: 100%;
+  line-height: 30px;
+  color: #fffafe;
+  text-decoration: none;
 }
 #gewara ul {
   padding: 0;
@@ -40,19 +78,93 @@
   height: 100%;
   line-height: 40px;
 }
-#first_nav li {
-  float: left;
+#site_nav {
+  display: none;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 140px;
+  background-color: #fffafe;
 }
-.view {
-  width: 70%;
-  height: 150px;
-  overflow: scroll;
+#site_nav .nav {
+  height: 100%;
 }
-.view ul {
+#site_nav .nav li {
   padding: 0;
 }
-.view ul li {
+#site_nav .nav li a {
+  height: 100%;
+  margin: 0 !important;
+  border-bottom: 1px solid white;
+}
+#site_nav .view {
+  width: 70%;
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #f3f3f3;
+}
+#site_nav .view ul {
+  padding: 0;
+}
+#site_nav .view ul li {
   height: 40px;
+  line-height: 40px;
   list-style-type: none;
-  border: 1px solid #999999;
+  border-bottom: 1px solid white;
+}
+#site_nav .view ul li:hover {
+  background-color: #dddddd;
+}
+#site_nav .view ul li a {
+  display: block;
+  margin-left: 10%;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+#special_nav {
+  display: none;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 140px;
+  background-color: #fffafe;
+}
+#special_nav .nav {
+  height: 100%;
+}
+#special_nav .nav li {
+  padding: 0;
+}
+#special_nav .nav li a {
+  height: 100%;
+  margin: 0 !important;
+  border-bottom: 1px solid white;
+}
+#special_nav .view {
+  width: 70%;
+  height: 200px;
+  overflow: scroll;
+  overflow-x: hidden;
+  background-color: #f3f3f3;
+}
+#special_nav .view ul {
+  padding: 0;
+}
+#special_nav .view ul li {
+  height: 40px;
+  line-height: 40px;
+  list-style-type: none;
+  border-bottom: 1px solid white;
+}
+#special_nav .view ul li:hover {
+  background-color: #dddddd;
+}
+#special_nav .view ul li a {
+  display: block;
+  margin-left: 10%;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
 }
