@@ -8,7 +8,7 @@ function read() {
     });
 
     $("#detailsimg").click(function () {
-        window.location.href="hero-coming.html"
+        window.location.href="finalwar.html"
     });
 
     $("#unflod").click(function () {
@@ -23,8 +23,8 @@ function read() {
             helloDivObj.addClass("open");
             buttonObj.attr("value","展开");
         }
-       /* $("#middle1").addClass("open");
-       /!* $("#unflod").css("text","收起").addClass("close");*!/*/
+        /* $("#middle1").addClass("open");
+         /!* $("#unflod").css("text","收起").addClass("close");*!/*/
     });
 
     $("#landw").click(function () {

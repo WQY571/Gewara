@@ -10,8 +10,7 @@ gulp.task("translate",function () {
 });
 gulp.task('serve',['translate'], function() {
     browserSync.init({
-        server: "./src/html",
-        open: false
+        server: "./src/html"
     });
 
     gulp.watch("src/css/*.less", ['translate']);

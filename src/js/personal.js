@@ -66,7 +66,9 @@
             }
         });
 
-
+        $(".back").click(function () {
+            window.location.href="index_real.html"
+        })
     }
 
 
