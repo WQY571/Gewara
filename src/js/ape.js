@@ -6,6 +6,14 @@ function read() {
         merge: true,
 
     });
+    //点击头部，显示与隐藏首页与个人中心
+    $("#btn2").click(function () {
+        $("#navbar-collapse").toggle();
+    });
+
+    $("#btn1").click(function () {
+        window.location.href="spiderman.html";
+    })
 
     $("#detailsimg").click(function () {
         window.location.href="finalwar.html"
