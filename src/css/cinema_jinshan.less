@@ -8,6 +8,8 @@
 }
 body{
   background-color: @bgcolor;
+  height: 1330px;
+
 }
 #nav{
   background-color: @nav_bgcolor;
@@ -73,10 +75,12 @@ body{
 
   }
   #right {
+    a{
       color: @color;
       font-size: 43px;
+      text-decoration: none;
     }
-
+}
   .img_show{
     border-top: 1px dotted @color;
     padding-top: 15px;
@@ -106,17 +110,19 @@ body{
   }
 .movietime{
   border-top: 1px solid @color;
-  li{
+
+  #myTab {
     a{
-    color:black;
-    display: inline-block;
-    padding: 10px 13px;
-    border-radius: 22px;
-
+      display: inline;
+      color: black;
     }
+    .active a {
 
+      color: white;
+      border-radius: 22px;
+      background: #ffa22f;
     }
-
+  }
       }
 
 
@@ -152,5 +158,22 @@ body{
       }
     }
   }
+  .return_top{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    opacity: 0.6;
+    display: none;
+    position: fixed;
+    right: 8px;
+    top:600px;
+    img{
+      height: 30px;
+      position: relative;
+      margin-left: 10px;
+      margin-right: 12px;
+    }
+  }
+
 
 

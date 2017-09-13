@@ -4,6 +4,7 @@
  * Date 2017/9/8.
  * Time 16:10.
  */
+
 $(document).ready(function(){
     //点击头部，显示与隐藏首页与个人中心
     $("#navbuttom").click(function(){
@@ -32,35 +33,23 @@ $(document).ready(function(){
         var days3=TodayDate.getDate()+2;
 
         $("#today1").text(
-    function (e) {
-        return a = months+"月"+days+"日";
-
-    }
-
+            function (e) {
+                return a = months+"月"+days+"日";
+        }
     );
     $("#tomorrow1").text(
         function (e) {
             return b = months+"月"+days2+"日";
-
         }
-
     );
     $("#tomorrow2").text(
         function (e) {
             return d = months+"月"+days3+"日";
-
         }
-
-    )
-
-
-
-
-
-
-
-
+    );
 
 
 
 });
+
+

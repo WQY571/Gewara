@@ -9,4 +9,34 @@ $(document).ready(function(){
     $("#navbuttom").click(function(){
         $("#navbar-collapse").toggle();
     });
+
+    // $('.nonloop').owlCarousel({
+    //     center: false,
+    //     items:1,
+    //     loop:false,
+    //     margin:0,
+    //     responsive:{
+    //         600:{
+    //             items:2
+    //         }
+    //     }
+    // });
+    $('.nonloop').owlCarousel({
+        items: 1.3,
+        loop: false,
+        margin: 0,
+        merge: true,
+        responsive: {
+            678: {
+                mergeFit: true
+            },
+            1000: {
+                mergeFit: false
+            }
+        }
+    });
+    $("#footer").click(function () {
+        $("#footer").text("加载中....")
+    })
 });
+
