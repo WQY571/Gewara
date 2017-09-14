@@ -1,14 +1,14 @@
 <h4 class="page-header">{{movies.title}}</h4>
 <h2 ng-if="message" class="page-header">{{message}}</h2>
 <div class="list-group">
-    <a class="list-group-item" ng-repeat="item in movies.subjects" id="movies_body">
+    <a class="list-group-item" href="#/{{item.id}}" ng-repeat="item in movies.subjects" id="movies_body">
         <span class="badge">{{item.rating.average}}</span>
         <div class="media">
             <div class="meida-left" id="movies_img">
             <img ng-src="{{item.images.small}}" class="media-object">
         </div>
             <div class="media-body">
-                <h4 class="media-heading"><b>{{item.title}}</b></h4>
+                <h4 class="media-heading"><b>{{item.title}}+{{item.id}}</b></h4>
                 <p>导演：<span ng-repeat="director in item.directors">{{director.name}}{{$last?'':'、'}}</span></p>
                 <p>主演:<span ng-repeat="cast in item.casts">{{cast.name}}{{$last?'':'、'}}</span></p>
                 <p>类型：<span>{{item.genres.join('、')}}</span></p>
@@ -16,3 +16,6 @@
         </div>
     </a>
 </div>
+<script>
+
+</script>
