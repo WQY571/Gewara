@@ -10,17 +10,6 @@ $(document).ready(function(){
         $("#navbar-collapse").toggle();
     });
 
-    // $('.nonloop').owlCarousel({
-    //     center: false,
-    //     items:1,
-    //     loop:false,
-    //     margin:0,
-    //     responsive:{
-    //         600:{
-    //             items:2
-    //         }
-    //     }
-    // });
     $('.nonloop').owlCarousel({
         items: 1.3,
         loop: false,
