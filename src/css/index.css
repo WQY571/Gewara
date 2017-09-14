@@ -59,6 +59,10 @@
   color: #fffafe;
   text-decoration: none;
 }
+#dropdown ul li a img {
+  width: 20px;
+  height: 20px;
+}
 #gewara ul {
   padding: 0;
   height: 40px;
