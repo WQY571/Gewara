@@ -107,6 +107,26 @@
             </div>
         </div>
     </div>
+    <div class="return_top">
+        <img src="../../img/returntop.png">
+    </div>
 </div>
+<script type="text/javascript">
+    $(window).bind("scroll", function () {
+        var sTop = $(window).scrollTop();
+        var sTop = parseInt(sTop);
+        if(sTop>=100){
+            $(".return_top").show();
+
+        }else {
+            $(".return_top").hide();
+        }
+
+    });
+    $(".return_top").bind("click" ,function () {
+        $(window).scrollTop(0);
+
+    });
+</script>
 </body>
 </html>

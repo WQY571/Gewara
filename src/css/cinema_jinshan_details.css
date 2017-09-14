@@ -4,6 +4,7 @@
 }
 body {
   background-color: #f3f3f3;
+  height: 1000px;
 }
 #nav {
   background-color: #eb6120;
@@ -51,6 +52,7 @@ body {
 }
 #contet_header {
   height: 125px;
+  padding-left: 25px;
 }
 #contet_header b {
   color: black;
@@ -165,4 +167,20 @@ body {
 .content .nonloop .boder_right .right {
   border-bottom: 5px solid #f3f3f3 !important;
   width: 257px;
+}
+.return_top {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  opacity: 0.6;
+  display: none;
+  position: fixed;
+  right: 8px;
+  top: 550px;
+}
+.return_top img {
+  height: 30px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 12px;
 }
