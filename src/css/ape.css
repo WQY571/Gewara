@@ -28,7 +28,7 @@
 #navbar-collapse {
   display: none;
   background-color: #9d9d9d;
-  opacity: 0.8;
+  opacity: 0.5;
   width: 116px;
   height: 92px;
   position: absolute;
@@ -96,11 +96,11 @@
 #middle1 {
   position: relative;
   top: 80px;
-  height: 180px;
+  height: 150px;
   border-bottom: 2px solid #dcdcdc;
 }
 #introduce {
-  height: 100px;
+  height: 80px;
   font-size: 14px;
   color: #5e5e5e;
   line-height: 20px;
@@ -112,7 +112,7 @@
   font-size: 20px;
   color: #eb6120;
   position: relative;
-  top: 40px;
+  top: 30px;
   left: 40%;
   background-color: white;
   border: hidden;
@@ -228,6 +228,7 @@
 }
 /********评论2********/
 #comment1 {
+  width: 100%;
   position: absolute;
   top: 830px;
   overflow: hidden;

@@ -19,7 +19,7 @@
 <div class="container-fluid" id="nav">
     <!--头部导航-->
     <div class="row">
-        <p class="col-xs-2"><a class="back" href="#"><</a></p>
+        <p class="col-xs-2"><a class="back" href="cinema_jinshan.html"><</a></p>
         <p class="col-xs-8  text-center">
             <b>金山万达电影城</b>
         </p>
@@ -49,14 +49,84 @@
                 <h4>服务</h4>
             </div>
         </div>
-        <div class="owl-carousel owl-theme">
-            <div class="item" ></div>
-            <div class="item" ></div>
-            <div class="item" ></div>
-            <div class="item" ></div>
-            <div class="item" ></div>
+        <div class="owl-carousel nonloop">
+            <div class="item">
+                <dl>
+                    <dt class="left"><img src="../../img/ico_catering.png"><span>卖品</span></dt>
+                    <dd class="right">饮品10元，小、中、大爆米</dd>
+                </dl>
+
+                <dl>
+                    <dt class="left1"><img src="../../img/ico_glasses.png"><span>3D眼镜</span></dt>
+                    <dd class="right">影城提供免费3D眼镜</dd>
+                </dl>
+                <dl>
+                    <dt class="left2"><img src="../../img/ico_child.png"><span>儿童票</span></dt>
+                    <dd class="right">1.3m以下儿童免票无座</dd>
+                </dl>
+            </div>
+            <div class="item">
+                <dl>
+                <dt class="left"><img src="../../img/ico_imax.png"><span>IMAX</span></dt>
+                <dd class="right">有</dd>
+                </dl>
+
+                <dl>
+                    <dt class="left1"><img src="../../img/ico_public.png"><span>公交</span></dt>
+                    <dd class="right">B21 89 131路A 194</dd>
+                </dl>
+                <dl>
+                    <dt class="left2"><img src="../../img/ico_rest.png"><span>休息区</span></dt>
+                    <dd class="right">二楼金逸酒楼会所、塞纳河</dd>
+                </dl>
+            </div>
+            <div class="item">
+                <dl class="boder_right">
+                <dt class="left"><img src="../../img/ico_catering.png"><span>卖品</span></dt>
+                <dd class="right">饮品10元，小、中、大爆米</dd>
+                </dl>
+
+                <dl class="boder_right">
+                    <dt class="left1"><img src="../../img/ico_glasses.png"><span>3D眼镜</span></dt>
+                    <dd class="right">影城提供免费3D眼镜</dd>
+                </dl>
+                <dl class="boder_right">
+                    <dt class="left2"><img src="../../img/ico_child.png"><span>儿童票</span></dt>
+                    <dd class="right">1.3m以下儿童免票无座</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>哇啦</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 text-center" id="footer">
+                点击加载更多
+            </div>
         </div>
     </div>
+    <div class="return_top">
+        <img src="../../img/returntop.png">
+    </div>
 </div>
+<script type="text/javascript">
+    $(window).bind("scroll", function () {
+        var sTop = $(window).scrollTop();
+        var sTop = parseInt(sTop);
+        if(sTop>=100){
+            $(".return_top").show();
+
+        }else {
+            $(".return_top").hide();
+        }
+
+    });
+    $(".return_top").bind("click" ,function () {
+        $(window).scrollTop(0);
+
+    });
+</script>
 </body>
 </html>

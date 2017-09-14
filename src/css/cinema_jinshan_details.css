@@ -4,6 +4,7 @@
 }
 body {
   background-color: #f3f3f3;
+  height: 1000px;
 }
 #nav {
   background-color: #eb6120;
@@ -51,14 +52,15 @@ body {
 }
 #contet_header {
   height: 125px;
+  padding-left: 25px;
 }
 #contet_header b {
   color: black;
   font-size: 18px;
 }
 #contet_header b img {
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 #contet_header p {
   margin: 0;
@@ -81,4 +83,104 @@ body {
   padding-left: 10px;
   border-left: 5px solid #eb6120;
   margin-bottom: 0;
+}
+.content #footer {
+  position: relative;
+  background-color: white;
+  border: 1px solid #ddd;
+  height: 40px;
+  line-height: 40px;
+  top: 20px;
+  cursor: pointer;
+}
+.content .nonloop {
+  background-color: white;
+  margin-top: 20px;
+}
+.content .nonloop .item dl {
+  border-bottom: 5px solid #f3f3f3;
+  border-right: 10px solid #f3f3f3;
+  height: 55px;
+  margin-bottom: 0;
+}
+.content .nonloop .item dl .left {
+  width: 60px;
+  padding: 5px;
+  border-left: 5px solid darkmagenta;
+  border-right: 5px solid #f3f3f3;
+  text-align: center;
+}
+.content .nonloop .item dl .left img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+}
+.content .nonloop .item dl .left span {
+  font-size: 10px;
+  color: #eb6120;
+}
+.content .nonloop .item dl .left1 {
+  width: 60px;
+  padding: 5px;
+  border-left: 5px solid #eb6120;
+  border-right: 5px solid #f3f3f3;
+  text-align: center;
+}
+.content .nonloop .item dl .left1 img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+}
+.content .nonloop .item dl .left1 span {
+  font-size: 10px;
+  color: #eb6120;
+}
+.content .nonloop .item dl .left2 {
+  width: 60px;
+  padding: 5px;
+  border-left: 5px solid green;
+  border-right: 5px solid #f3f3f3;
+  text-align: center;
+}
+.content .nonloop .item dl .left2 img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 10px;
+}
+.content .nonloop .item dl .left2 span {
+  font-size: 10px;
+  color: #eb6120;
+}
+.content .nonloop .item dl .right {
+  line-height: 50px;
+  position: relative;
+  top: -50px;
+  left: 68px;
+  font-size: 12px;
+}
+.content .nonloop .boder_right {
+  border-right: 10px solid white !important;
+}
+.content .nonloop .boder_right .right {
+  border-bottom: 5px solid #f3f3f3 !important;
+  width: 257px;
+}
+.return_top {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  opacity: 0.6;
+  display: none;
+  position: fixed;
+  right: 8px;
+  top: 550px;
+}
+.return_top img {
+  height: 30px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 12px;
 }
