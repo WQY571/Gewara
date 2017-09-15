@@ -1,13 +1,12 @@
-@bg:#eb6120;
 /*登录样式*/
-.back{
+.back {
   display: inline-block;
   position: relative;
   top: -10px;
   left: 5px;
-  font-size:48px;
+  font-size: 48px;
 }
-.denglu{
+.denglu {
   color: white;
   font-size: 22px;
   text-align: center;
@@ -15,41 +14,39 @@
   left: 45%;
   top: 10px;
 }
-#header{
-  background-color: @bg;
-  height:50px;
+#header {
+  background-color: #eb6120;
+  height: 50px;
 }
-
 /*账号登录样式*/
-#loging{
+#loging {
   width: 50%;
-  background-color:#f0efee;
-  border-bottom:2px solid @bg;
-  height:50px;
+  background-color: #f0efee;
+  border-bottom: 2px solid #eb6120;
+  height: 50px;
 }
-
-.idnumber{
+.idnumber {
   font-size: 20px;
-  color: @bg;
+  color: #eb6120;
   position: absolute;
   left: 30%;
   top: 10px;
 }
 /**手机输入框样式*/
-#iphonediv{
+#iphonediv {
   height: 50px;
   width: 100%;
   background-color: white;
-  border-bottom:2px solid #dcdcdc;
-  position:relative;
+  border-bottom: 2px solid #dcdcdc;
+  position: relative;
   top: 10px;
 }
-#personid{
+#personid {
   height: 25px;
   width: 25px;
   margin: 10px;
 }
-#iphoneid{
+#iphoneid {
   position: absolute;
   top: 5px;
   width: 90%;
@@ -57,25 +54,23 @@
   border: none;
   font-size: 20px;
 }
-#iphonediv span{
+#iphonediv span {
   height: 50px;
 }
-
 /**密码输入框样式*/
-#pswdiv{
+#pswdiv {
   height: 50px;
   width: 100%;
   background-color: white;
-  border-bottom:2px solid #dcdcdc;
+  border-bottom: 2px solid #dcdcdc;
   position: relative;
-  top: 10px;
 }
-#cloneid{
+#cloneid {
   height: 25px;
   width: 25px;
   margin: 10px;
 }
-#pswid{
+#pswid {
   width: 90%;
   height: 40px;
   position: absolute;
@@ -83,22 +78,21 @@
   border: none;
   font-size: 20px;
 }
-
 /**验证输入框样式*/
-#trydiv{
+#trydiv {
   height: 50px;
   width: 100%;
   background-color: white;
-  border-bottom:2px solid #dcdcdc;
+  border-bottom: 2px solid #dcdcdc;
   position: relative;
-  margin-top: 50px;
+  margin-top: 10px;
 }
-#tryid{
+#tryid {
   height: 25px;
   width: 25px;
   margin: 10px;
 }
-#yanzhengid{
+#yanzhengid {
   width: 50%;
   height: 40px;
   position: absolute;
@@ -106,35 +100,54 @@
   border: none;
   font-size: 20px;
 }
-
-#code{
+/*****************/
+#trydiv1 {
+  height: 50px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 2px solid #dcdcdc;
+  position: relative;
+}
+#tryid1 {
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+#yanzhengid1 {
+  width: 50%;
+  height: 40px;
+  position: absolute;
+  bottom: 5px;
+  border: none;
+  font-size: 20px;
+}
+#code {
   width: 100px;
   height: 44px;
   border: 0;
   position: absolute;
   right: 2px;
   bottom: 2px;
-  letter-spacing:3px;
+  letter-spacing: 3px;
   font-size: 20px;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 /****登录的样式****/
-#btndiv{
+#btndiv {
   width: 100%;
   height: 100px;
   background-color: white;
 }
-.btn{
+.btn {
   width: 100%;
-  background-color: @bg;
+  background-color: #eb6120;
   font-size: 24px;
   position: relative;
   margin-top: 20px;
   color: white;
   border-radius: 5px;
 }
-.login{
-  color:@bg;
-  font-size: 18px;
-  text-decoration: none;
+#in {
+  position: absolute;
+  right: 0px;
 }
