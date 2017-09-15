@@ -1,0 +1,114 @@
+@bgcolor:#565656;
+@nav_bgcolor:#eb6120;
+@bdcolor: #ddd;
+@color:#c4c4c4;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#nav {
+  background-color: @nav_bgcolor;
+  height: 50px;
+  line-height: 50px;
+  .back {
+    color: white;
+    text-decoration: none;
+    font-size: 43px;
+  }
+  b {
+    color: white;
+    font-size: 16px;
+  }
+}
+.layout_ui{
+  position: relative;
+  top:-20px;
+  color: white;
+
+  .row{
+    background-color: @bgcolor;
+    font-size: 12px;
+    height: 300px;
+    img{
+      width: 15px;
+      height: 15px;
+    }
+    .content_seat{
+      margin-top: 10px;
+      border-top: 1px solid white;
+      .head{
+        border: 1px solid white;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+        position: relative;
+        top: -20px;
+        border-bottom: none;
+        background-color: @bgcolor;
+
+      }
+      .left{
+        background-color: #777777;
+        display: block;
+        width: 8px;
+        height: 200px;
+        position: relative;
+        line-height: 25px;
+        top: -26px;
+        margin-left: 15px;
+        padding-left: 8px;
+        border-radius: 20px
+      }
+      .seat{
+        height: 328px;
+        width: 300px;
+        position: absolute;
+        left: 70px;
+        top: 22px;
+        line-height: 22px;
+        overflow: auto;
+        .right{
+          img{
+            width: 20px;
+            height: 20px;
+            margin-right: 5px;
+          }
+
+        }
+
+      }
+    }
+
+
+  }
+  .footer{
+    .footer_top{
+    color: #686868;
+    }
+    .footer_last{
+      border-top: 1px solid @bdcolor;
+
+      b{
+        color: #656565 !important;
+      }
+      .data{
+        position: relative;
+        top: -20px;
+        color: #686868;
+      }
+      .footer_right{
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        line-height: 40px;
+        background-color: #ddd;
+        float: right;
+        position: relative;
+        top: -82px;
+      }
+    }
+
+  }
+}

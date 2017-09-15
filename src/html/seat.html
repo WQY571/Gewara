@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>选择座位-格瓦拉</title>
+    <script src="../../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../../bower_components/angular/angular.min.js"></script>
+    <script src="../../bower_components/angular-route/angular-route.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/seat.css">
+</head>
+<body>
+<div class="container-fluid" id="nav">
+    <!--头部导航-->
+    <div class="row">
+        <p class="col-xs-2"><a class="back" href="cinema_details.html"><</a></p>
+        <p class="col-xs-8  text-center">
+            <b>金山万达电影城</b>
+        </p>
+    </div>
+    <div class="layout_ui">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <div class="imgs">
+                    <img src="../../img/yixuan.png"/> 已选&nbsp;
+                    <img src="../../img/yishou.png"/> 已售&nbsp;
+                    <img src="../../img/zuowei.png"/> 可选&nbsp;
+                </div>
+            </div>
+
+            <div class="col-xs-12 text-center content_seat">
+                <span class="head">
+                    3号厅银幕
+                </span>
+                <div class="row">
+                <div class="col-xs-2 text-center left">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>5</span>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                </div>
+                <div class="col-xs-8 seat">
+                    <table class="right">
+                        <tr>
+                            <td colspan="2"><a href="#"></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td colspan="2"><a href="#"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td colspan="4"><a href="#"></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td colspan="8"><a href="#"></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                            <td><a href="#"><img src="../../img/zuowei.png"/></a></td>
+                        </tr>
+                    </table>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer_top">
+                最多可选5个座位
+            </div>
+            <div class="footer_last">
+                <b>星球崛起3：终极之战</b>
+                <div class="data">9月15号 周五00:00</div>
+                <div class="footer_right">请选座</div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
