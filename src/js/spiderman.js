@@ -1,3 +1,4 @@
+
 function read() {
     $('.owl-carousel').owlCarousel({
         items: 4 ,
@@ -14,7 +15,7 @@ function read() {
         });
 
         $("#btn1").click(function () {
-            window.location.href="spiderman.html";
+            window.location.href="index.html";
         })
 
 

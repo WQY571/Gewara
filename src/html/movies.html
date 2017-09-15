@@ -1,7 +1,7 @@
 <h4 class="page-header">{{movies.title}}</h4>
 <h2 ng-if="message" class="page-header">{{message}}</h2>
 <div class="list-group">
-    <a class="list-group-item" ng-repeat="item in movies.subjects" id="movies_body">
+    <a class="list-group-item" href="#/{{item.id}}" ng-repeat="item in movies.subjects" id="movies_body">
         <span class="badge">{{item.rating.average}}</span>
         <div class="media">
             <div class="meida-left" id="movies_img">
@@ -16,3 +16,6 @@
         </div>
     </a>
 </div>
+<script>
+
+</script>

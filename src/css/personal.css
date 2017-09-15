@@ -39,7 +39,7 @@
   background-color: white;
   border-bottom: 2px solid #dcdcdc;
   position: relative;
-  top: 50px;
+  top: 10px;
 }
 #personid {
   height: 25px;
@@ -64,7 +64,7 @@
   background-color: white;
   border-bottom: 2px solid #dcdcdc;
   position: relative;
-  top: 60px;
+  top: 10px;
 }
 #cloneid {
   height: 25px;
@@ -75,7 +75,6 @@
   width: 90%;
   height: 40px;
   position: absolute;
-  left: 100px;
   bottom: 2px;
   border: none;
   font-size: 20px;
@@ -87,7 +86,7 @@
   background-color: white;
   border-bottom: 2px solid #dcdcdc;
   position: relative;
-  margin-top: 160px;
+  margin-top: 50px;
 }
 #tryid {
   height: 25px;
@@ -98,7 +97,6 @@
   width: 50%;
   height: 40px;
   position: absolute;
-  left: 100px;
   bottom: 5px;
   border: none;
   font-size: 20px;
@@ -125,7 +123,12 @@
   background-color: #eb6120;
   font-size: 24px;
   position: relative;
-  margin-top: 60px;
+  margin-top: 20px;
   color: white;
   border-radius: 5px;
+}
+.login {
+  color: #eb6120;
+  font-size: 18px;
+  text-decoration: none;
 }
