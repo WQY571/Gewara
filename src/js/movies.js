@@ -7,13 +7,13 @@
     moviesModule.config(["$routeProvider",function ($routeProvider) {
         $routeProvider
         .when('/25808075',{
-            templateUrl:"ape.html"
+            templateUrl:"jump.html"
         })
             .when("/24753477",{
-                templateUrl:"spiderman.html"
+                templateUrl:"jump_spiderman.html"
             })
             .when("/26607693",{
-                templateUrl:"dunkerik.html"
+                templateUrl:"jump_dunkrik.html"
             })
     }]);
    moviesModule.controller('moviesController', ["$scope", "$http", function ($scope, $http) {

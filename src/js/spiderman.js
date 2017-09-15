@@ -15,8 +15,8 @@ function read() {
         });
 
         $("#btn1").click(function () {
-            window.location.href="spiderman.html";
-        })+
+            window.location.href="index.html";
+        })
 
 
     $("#detailsimg").click(function () {
